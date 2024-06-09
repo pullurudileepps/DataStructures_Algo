@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d860e7d5-359b-4a25-b41c-8fd1677d2f82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/SubArraySumsDivisibleByK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/ContinuousSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/ContinuousSubArraySum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ContinuousSubArraySum.executor": "Run",
+    "Application.SubArraySumsDivisibleByK.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -60,7 +61,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SubArraySumsDivisibleByK">
     <configuration name="ContinuousSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.ContinuousSubArraySum" />
       <module name="DataStructures_Algo" />
@@ -74,8 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubArraySumsDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.SubArraySumsDivisibleByK" />
+      <module name="DataStructures_Algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubArraySumsDivisibleByK" />
         <item itemvalue="Application.ContinuousSubArraySum" />
       </list>
     </recent_temporary>
@@ -96,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717933059564</updated>
-      <workItem from="1717933060601" duration="2012000" />
+      <workItem from="1717933060601" duration="5933000" />
     </task>
     <servers />
   </component>
@@ -125,6 +140,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/Arrays/ContinuousSubArraySum.java</url>
           <line>19</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/SubArraySumsDivisibleByK.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/SubArraySumsDivisibleByK.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/SubArraySumsDivisibleByK.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/SubArraySumsDivisibleByK.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
