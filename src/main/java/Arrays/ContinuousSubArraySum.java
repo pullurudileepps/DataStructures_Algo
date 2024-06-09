@@ -5,12 +5,28 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class ContinuousSubArraySum {
+    //T.C : O(N^2)
+    //S.C : O(0)
+    private static boolean BruteForce(int[] nums, int k) {
+        for(int i=0; i<nums.length; i++){
+            int sum = 0;
+            for(int j=i; j<nums.length; j++){
+                sum += nums[j];
+                if(sum % k == 0){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
     public static void main(String[] args) {
-        int[] nums = {23, 2, 6, 4, 7};
-        int k = 13;
+        int[] nums = {1,2,3};
+        int k = 6;
         boolean ans = checkSubarraySum(nums, k);
         System.out.println(ans);
     }
+    //T.C: O(n)
+    //S.C : O(n)
     private static boolean checkSubarraySum(int[] nums, int k){
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, -1);

@@ -46,7 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.ContinuousSubArraySum.executor": "Debug",
+    "Application.ContinuousSubArraySum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -96,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717933059564</updated>
-      <workItem from="1717933060601" duration="1653000" />
+      <workItem from="1717933060601" duration="2012000" />
     </task>
     <servers />
   </component>
@@ -113,13 +113,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Arrays/ContinuousSubArraySum.java</url>
-          <line>14</line>
+          <line>30</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Arrays/ContinuousSubArraySum.java</url>
-          <line>10</line>
+          <line>24</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/ContinuousSubArraySum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
