@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d860e7d5-359b-4a25-b41c-8fd1677d2f82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/RelativeSortArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/RelativeSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/RelativeSortArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
   "keyToString": {
     "Application.ContinuousSubArraySum.executor": "Run",
     "Application.HeightChecker.executor": "Run",
-    "Application.RelativeSortArray.executor": "Run",
+    "Application.RelativeSortArray.executor": "Debug",
     "Application.SubArraySumsDivisibleByK.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -143,7 +143,7 @@
       <updated>1717933059564</updated>
       <workItem from="1717933060601" duration="6425000" />
       <workItem from="1718015988168" duration="895000" />
-      <workItem from="1718110947437" duration="734000" />
+      <workItem from="1718110947437" duration="2403000" />
     </task>
     <servers />
   </component>
@@ -197,6 +197,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Arrays/HeightChecker.java</url>
           <line>21</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/RelativeSortArray.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/RelativeSortArray.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

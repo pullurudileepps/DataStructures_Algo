@@ -18,7 +18,12 @@ public class RelativeSortArray {
         List<Integer> temp = new ArrayList<>();
         map.entrySet().stream()
                 .filter(val -> val.getValue() > 0)
-                .forEach(x -> temp.add(x.getKey()));
+                .forEach(x -> {
+                    while(x.getValue() > 0){
+                        temp.add(x.getKey());
+                        map.put(x.getKey(), map.get(x.getKey()) - 1);
+                    }
+                });
         Collections.sort(temp);
         for (int num : temp) {
             arr1[++j] = num;
@@ -27,10 +32,10 @@ public class RelativeSortArray {
     }
 
     public static void main(String[] args) {
-        int[] arr1 = {28, 6, 22, 8, 44, 17};
-        int[] arr2 = {22, 28, 8, 6};
+        int[] arr1 = {2,21,43,38,0,42,33,7,24,13,12,27,12,24,5,23,29,48,30,31};
+        int[] arr2 = {2,42,38,0,43,21};
         int[] result = relativeSortArray(arr1, arr2);
-        int[] Output = {22, 28, 8, 6, 17, 44};
+        int[] Output = {2,42,38,0,43,21,5,7,12,12,13,23,24,24,27,29,30,31,33,48};
         boolean ans = Arrays.compare(Output, result) == 0;
         System.out.println(ans);
     }
