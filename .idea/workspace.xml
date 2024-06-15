@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d860e7d5-359b-4a25-b41c-8fd1677d2f82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MinNumberOfMovestoSeatEveryOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Heap/IPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,29 +44,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ContinuousSubArraySum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HeightChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RelativeSortArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SortColors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubArraySumsDivisibleByK.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/pullurudileep/Downloads/DataStructures_Algo/src/main/java/org/example/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ContinuousSubArraySum.executor": "Run",
+    "Application.HeightChecker.executor": "Run",
+    "Application.IPO.executor": "Run",
+    "Application.RelativeSortArray.executor": "Debug",
+    "Application.SortColors.executor": "Run",
+    "Application.SubArraySumsDivisibleByK.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/pullurudileep/Downloads/DataStructures_Algo/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.SortColors">
-    <configuration name="ContinuousSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.ContinuousSubArraySum" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Heap" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.IPO">
+    <configuration name="HeightChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.HeightChecker" />
       <module name="DataStructures_Algo" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeightChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.HeightChecker" />
+    <configuration name="IPO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.IPO" />
       <module name="DataStructures_Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IPO" />
         <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.RelativeSortArray" />
         <item itemvalue="Application.HeightChecker" />
         <item itemvalue="Application.SubArraySumsDivisibleByK" />
-        <item itemvalue="Application.ContinuousSubArraySum" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +166,9 @@
       <workItem from="1718015988168" duration="895000" />
       <workItem from="1718110947437" duration="3241000" />
       <workItem from="1718204245887" duration="3626000" />
-      <workItem from="1718299147248" duration="294000" />
+      <workItem from="1718299147248" duration="377000" />
+      <workItem from="1718469942970" duration="310000" />
+      <workItem from="1718470292285" duration="857000" />
     </task>
     <servers />
   </component>
