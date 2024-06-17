@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d860e7d5-359b-4a25-b41c-8fd1677d2f82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/PatchingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Math/sumofSquareNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +53,7 @@
     &quot;Application.ContinuousSubArraySum.executor&quot;: &quot;Run&quot;,
     &quot;Application.HeightChecker.executor&quot;: &quot;Run&quot;,
     &quot;Application.IPO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatchingArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.RelativeSortArray.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SortColors.executor&quot;: &quot;Run&quot;,
     &quot;Application.SubArraySumsDivisibleByK.executor&quot;: &quot;Run&quot;,
@@ -72,20 +75,7 @@
       <recent name="Heap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PatchingArray">
-    <configuration name="HeightChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.HeightChecker" />
-      <module name="DataStructures_Algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.sumofSquareNumbers">
     <configuration name="IPO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Heap.IPO" />
       <module name="DataStructures_Algo" />
@@ -138,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sumofSquareNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.sumofSquareNumbers" />
+      <module name="DataStructures_Algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sumofSquareNumbers" />
         <item itemvalue="Application.PatchingArray" />
         <item itemvalue="Application.IPO" />
         <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.RelativeSortArray" />
-        <item itemvalue="Application.HeightChecker" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +175,8 @@
       <workItem from="1718469942970" duration="310000" />
       <workItem from="1718470292285" duration="1710000" />
       <workItem from="1718527287763" duration="671000" />
-      <workItem from="1718640267116" duration="152000" />
+      <workItem from="1718640267116" duration="481000" />
+      <workItem from="1718641296004" duration="166000" />
     </task>
     <servers />
   </component>
