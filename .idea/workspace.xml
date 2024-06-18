@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d860e7d5-359b-4a25-b41c-8fd1677d2f82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Math/sumofSquareNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinarySearch/Most_Profit_Assigning_Work.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,34 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ContinuousSubArraySum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HeightChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IPO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatchingArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RelativeSortArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SortColors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubArraySumsDivisibleByK.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/pullurudileep/Downloads/DataStructures_Algo/src/main/java/org/example/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ContinuousSubArraySum.executor": "Run",
+    "Application.HeightChecker.executor": "Run",
+    "Application.IPO.executor": "Run",
+    "Application.Most_Profit_Assigning_Work.executor": "Run",
+    "Application.PatchingArray.executor": "Run",
+    "Application.RelativeSortArray.executor": "Debug",
+    "Application.SortColors.executor": "Run",
+    "Application.SubArraySumsDivisibleByK.executor": "Run",
+    "Application.sumofSquareNumbers.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/pullurudileep/Downloads/DataStructures_Algo/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Heap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.sumofSquareNumbers">
+  <component name="RunManager" selected="Application.Most_Profit_Assigning_Work">
     <configuration name="IPO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Heap.IPO" />
       <module name="DataStructures_Algo" />
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatchingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.PatchingArray" />
+    <configuration name="Most_Profit_Assigning_Work" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.Most_Profit_Assigning_Work" />
       <module name="DataStructures_Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.RelativeSortArray" />
+    <configuration name="PatchingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.PatchingArray" />
       <module name="DataStructures_Algo" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Most_Profit_Assigning_Work" />
         <item itemvalue="Application.sumofSquareNumbers" />
         <item itemvalue="Application.PatchingArray" />
         <item itemvalue="Application.IPO" />
         <item itemvalue="Application.SortColors" />
-        <item itemvalue="Application.RelativeSortArray" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +177,8 @@
       <workItem from="1718470292285" duration="1710000" />
       <workItem from="1718527287763" duration="671000" />
       <workItem from="1718640267116" duration="481000" />
-      <workItem from="1718641296004" duration="166000" />
+      <workItem from="1718641296004" duration="426000" />
+      <workItem from="1718730261967" duration="328000" />
     </task>
     <servers />
   </component>
@@ -275,6 +277,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Arrays/SortColors.java</url>
           <line>14</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/sumofSquareNumbers.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
