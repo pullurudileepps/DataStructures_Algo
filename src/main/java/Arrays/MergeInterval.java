@@ -16,11 +16,11 @@ public class MergeInterval {
     }
     public static void main(String[] args) {
         ArrayList<Interval> intervals = new ArrayList<>();
-        intervals.add(new Interval(1, 3));
-        intervals.add(new Interval(6, 9));
+        intervals.add(new Interval(1, 4));
+        intervals.add(new Interval(7, 8));
 
         // New interval to be inserted
-        Interval newInterval = new Interval(2, 5);
+        Interval newInterval = new Interval(5, 6);
 
         // Print the original intervals
         System.out.println("Original intervals: " + intervals);
