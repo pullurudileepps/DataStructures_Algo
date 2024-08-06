@@ -18,11 +18,11 @@ public class smallestMissingNumber {
         int size = list.size() - 1;
         for (int i = 0; i < list.size(); i++) {
             while (list.get(i) >= 0 && list.get(i) <= size) {
-                int index = list.get(i);
+                int index = list.get(i);//4
                 if(index == i){
                     break;
                 }
-                int temp = list.get(index);
+                int temp = list.get(index);//get index of 4
                 list.set(index, index);
                 list.set(i, temp);
             }
