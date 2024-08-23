@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d860e7d5-359b-4a25-b41c-8fd1677d2f82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SlidingWindow/SpiralOrderMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hashing/mostFrequentElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hashing/secondMostFrequentElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hashing/sumHighestAndLowestFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/String/isomorphicString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/String/longestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/MergeInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/MergeInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +59,7 @@
     "Application.ContinuousSubArraySum.executor": "Run",
     "Application.HeightChecker.executor": "Run",
     "Application.IPO.executor": "Run",
-    "Application.MergeInterval.executor": "Debug",
+    "Application.MergeInterval.executor": "Run",
     "Application.Most_Profit_Assigning_Work.executor": "Run",
     "Application.PatchingArray.executor": "Run",
     "Application.RainWaterTrapped.executor": "Run",
@@ -62,7 +67,9 @@
     "Application.SortColors.executor": "Run",
     "Application.SpiralOrderMatrix.executor": "Run",
     "Application.SubArraySumsDivisibleByK.executor": "Debug",
+    "Application.isomorphicString.executor": "Debug",
     "Application.maxSumContiguousSubarray.executor": "Run",
+    "Application.practice.executor": "Run",
     "Application.smallestMissingNumber.executor": "Debug",
     "Application.sumofSquareNumbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -84,22 +91,9 @@
       <recent name="Heap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpiralOrderMatrix">
+  <component name="RunManager" selected="Application.isomorphicString">
     <configuration name="MergeInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.MergeInterval" />
-      <module name="DataStructures_Algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SortColors" />
       <module name="DataStructures_Algo" />
       <extension name="coverage">
         <pattern>
@@ -124,15 +118,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArraySumsDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SubArraySumsDivisibleByK" />
+    <configuration name="isomorphicString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.isomorphicString" />
       <module name="DataStructures_Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice" />
+      <module name="DataStructures_Algo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpiralOrderMatrix" />
+        <item itemvalue="Application.isomorphicString" />
         <item itemvalue="Application.MergeInterval" />
+        <item itemvalue="Application.practice" />
+        <item itemvalue="Application.SpiralOrderMatrix" />
         <item itemvalue="Application.smallestMissingNumber" />
-        <item itemvalue="Application.SubArraySumsDivisibleByK" />
-        <item itemvalue="Application.SortColors" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +192,11 @@
       <workItem from="1721373899558" duration="5717000" />
       <workItem from="1722410374718" duration="1152000" />
       <workItem from="1722934796899" duration="2926000" />
-      <workItem from="1722939246467" duration="397000" />
+      <workItem from="1722939246467" duration="3656000" />
+      <workItem from="1723019715190" duration="1523000" />
+      <workItem from="1723093058944" duration="1000" />
+      <workItem from="1723094752540" duration="277000" />
+      <workItem from="1724396979030" duration="1361000" />
     </task>
     <servers />
   </component>
@@ -318,13 +323,41 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Arrays/MergeInterval.java</url>
-          <line>46</line>
+          <line>45</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Arrays/MergeInterval.java</url>
-          <line>39</line>
+          <line>38</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/String/isomorphicString.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/String/isomorphicString.java</url>
+          <line>13</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Arrays/SubArraySumsDivisibleByK.java</url>
