@@ -25,37 +25,19 @@ public class LinkedListExample {
             head = head.next;
         }
     }
-
     // Function to delete a node with a specific value in a linked list
     static Node deleteVal(Node head, int val) {
-        // Check if the list is empty
-        if (head == null)
-            return head;
-
-        // If the first node has the target value, delete it
-        if (head.data == val) {
-            Node temp = head;
-            head = head.next;
-            temp = null;
-            return head;
-        }
-
-        // Traverse the list to find the node with the target value
-        Node temp = head;
-        Node prev = null;
-
-        while (temp != null) {
-            if (temp.data == val) {
-                // Adjust the pointers to skip the node with the target value
-                prev.next = temp.next;
-                // Delete the node with the target value
-                temp = null;
+               if(head == null) return head;
+        if(head.val == X) return head.next;
+        ListNode temp = head; ListNode prev = null;
+        while(temp != null){
+            if(temp.val == X){
+                prev.next = prev.next.next;
                 break;
             }
             prev = temp;
             temp = temp.next;
         }
-
         return head;
     }
 
