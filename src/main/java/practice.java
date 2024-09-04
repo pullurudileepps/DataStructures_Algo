@@ -1,6 +1,3 @@
-
-import Arrays.MergeInterval;
-
 import java.util.ArrayList;
 
 public class practice {
@@ -32,8 +29,8 @@ public class practice {
         Interval newInterval = new Interval(5, 6);
         ArrayList<Interval> intervals1 = MergeInterval(intervals, newInterval);
         System.out.println(intervals1);
-        //[1,3],[6,9]
-        //[2,5]
+        // [1,3],[6,9]
+        // [2,5]
     }
 
     public static ArrayList<Interval> MergeInterval(ArrayList<Interval> intervals, Interval newInterval) {
@@ -49,7 +46,7 @@ public class practice {
                 endIndex = i;
             i++;
         }
-        if(startIndex == -1 && endIndex == -1) {
+        if (startIndex == -1 && endIndex == -1) {
             for (i = 0; i < intervals.size(); i++) {
                 if (start > intervals.get(i).end) {
                     startIndex = i + 1;

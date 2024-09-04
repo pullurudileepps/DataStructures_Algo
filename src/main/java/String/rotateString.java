@@ -1,11 +1,14 @@
-public class Solution {
-    public boolean rotateString(String s, String goal) {
-        if(s.equals(goal)) return true;
+package String;
+
+class Solution {
+    public static boolean rotateString(String s, String goal) {
+        if (s.equals(goal))
+            return true;
         int size = s.length();
         int i = 0;
-        while(i < size){
+        while (i < size) {
             s = s.substring(1) + s.charAt(0);
-            if(s.equals(goal)){
+            if (s.equals(goal)) {
                 return true;
             }
             i++;
@@ -14,8 +17,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
-        System.out.println(sol.rotateString("abcde", "cdeab"));  
-        System.out.println(sol.rotateString("abcde", "abced"));  
+        System.out.println(rotateString("abcde", "cdeab"));
+        System.out.println(rotateString("abcde", "abced"));
     }
 }

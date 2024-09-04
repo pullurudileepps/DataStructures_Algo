@@ -1,18 +1,18 @@
-import java.util.Arrays;
+package String;
 
 class Solution {
     public boolean anagramStrings(String s, String t) {
-        if(s.length() != t.length()) return false;
+        if (s.length() != t.length())
+            return false;
 
         int[] freq = new int[127];
-        for(int i = 0; i < s.length(); i++){
+        for (int i = 0; i < s.length(); i++) {
             freq[s.charAt(i)]++;
         }
-        for(int i = 0; i < t.length(); i++){
-            if(freq[t.charAt(i)] > 0){
+        for (int i = 0; i < t.length(); i++) {
+            if (freq[t.charAt(i)] > 0) {
                 freq[t.charAt(i)]--;
-            }
-            else{
+            } else {
                 return false;
             }
         }

@@ -30,7 +30,7 @@ public class longestCommonPrefix {
 
     // Main method to test the longestCommonPrefix method
     public static void main(String[] args) {
-        String[] input = {"flower", "flow", "flight"};
+        String[] input = { "flower", "flow", "flight" };
         String result = Solution(input);
         System.out.println("Longest Common Prefix: " + result); // Output: "fl"
     }
