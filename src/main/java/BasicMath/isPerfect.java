@@ -1,4 +1,5 @@
 package BasicMath;
+
 /*
 Check for perfect number
 You are given an integer n. You need to check if the number is a perfect number or not.
@@ -15,25 +16,26 @@ public class isPerfect {
         int total = optimized(n);
         System.out.println(total == n);
     }
-    //T.C : O(N)
-    private static int sumPerfectNumber(int n){
+
+    // T.C : O(N)
+    // private static int sumPerfectNumber(int n){
+    // int sum = 0;
+    // int size = n-1;
+    // for(int i = 1;i<size;i++){
+    // if(n % i == 0){
+    // sum = sum + i;
+    // }
+    // }
+    // return sum;
+    // }
+    // T.C : O(Sqrt(n))
+    private static int optimized(int n) {
         int sum = 0;
-        int size = n-1;
-        for(int i = 1;i<size;i++){
-            if(n % i == 0){
+        for (int i = 1; i * i < n; i++) {
+            if (n % i == 0) {
                 sum = sum + i;
-            }
-        }
-        return sum;
-    }
-    //T.C : O(Sqrt(n))
-    private static int optimized(int n){
-        int sum = 0;
-        for(int i = 1;i*i<n;i++){
-            if(n % i == 0){
-                sum = sum + i;
-                if(n != (n/i)){
-                    sum = sum + (n/i);
+                if (n != (n / i)) {
+                    sum = sum + (n / i);
                 }
             }
         }

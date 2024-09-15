@@ -2,8 +2,8 @@ package String;
 
 import java.util.*;
 
-class Solution {
-    public List<Character> frequencySort(String s) {
+class frequencySort {
+    public static List<Character> solution(String s) {
         // Frequency array for characters 'a' to 'z'
         Pair[] freq = new Pair[26];
         for (int i = 0; i < 26; i++) {
@@ -32,21 +32,20 @@ class Solution {
     }
 
     // Helper class to store frequency and character
-    class Pair {
+    static class Pair {
         int freq;
         char ch;
 
-        Pair(int f, char c) {
+        Pair(int f, char i) {
             this.freq = f;
-            this.ch = c;
+            this.ch = i;
         }
     }
 
     // Main method to test the function
     public static void main(String[] args) {
-        Solution sol = new Solution();
         String s = "tree";
-        List<Character> result = sol.frequencySort(s);
+        List<Character> result = solution(s);
         System.out.println(result);
     }
 }

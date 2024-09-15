@@ -1,4 +1,4 @@
-import java.util.*;
+package LinkedList;
 
 class ListNode {
     int val;
@@ -10,16 +10,20 @@ class ListNode {
         next = null;
     }
 
-    /* Constructor for a node with 
-    only data provided, 
-    next initialized to null */
+    /*
+     * Constructor for a node with
+     * only data provided,
+     * next initialized to null
+     */
     ListNode(int data1) {
         val = data1;
         next = null;
     }
 
-    /* Constructor for a node with both data 
-    and next node provided */
+    /*
+     * Constructor for a node with both data
+     * and next node provided
+     */
     ListNode(int data1, ListNode next1) {
         val = data1;
         next = next1;
@@ -36,20 +40,26 @@ public class LinkedListDeletion {
         System.out.println();
     }
 
-    // Function to delete the tail node of linked list 
+    // Function to delete the tail node of linked list
     public static ListNode deleteTail(ListNode head) {
-        /* If the list is empty or has only one node, 
-        return null */
+        /*
+         * If the list is empty or has only one node,
+         * return null
+         */
         if (head == null || head.next == null) {
             return null;
         }
 
-        /* Initialize a temporary 
-        pointer to traverse the list */
+        /*
+         * Initialize a temporary
+         * pointer to traverse the list
+         */
         ListNode temp = head;
 
-        /* Traverse to the second last 
-        node in the list */
+        /*
+         * Traverse to the second last
+         * node in the list
+         */
         while (temp.next.next != null) {
             temp = temp.next;
         }
@@ -63,7 +73,7 @@ public class LinkedListDeletion {
 
     public static void main(String[] args) {
         // Initialize a list with values for the linked list
-        int[] arr = {12, 5, 8, 7};
+        int[] arr = { 12, 5, 8, 7 };
 
         // Create a linked list with the values from the array
         ListNode head = new ListNode(arr[0]);

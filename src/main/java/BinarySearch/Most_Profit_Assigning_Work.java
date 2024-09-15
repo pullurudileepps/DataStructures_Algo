@@ -1,26 +1,25 @@
 package BinarySearch;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Most_Profit_Assigning_Work {
 
     public static void main(String[] args) {
-        int[] difficulty = {2, 4, 6, 8, 10};
-        int[] profit = {10, 20, 30, 40, 50};
-        int[] worker = {4, 5, 6, 7};
+        int[] difficulty = { 2, 4, 6, 8, 10 };
+        int[] profit = { 10, 20, 30, 40, 50 };
+        int[] worker = { 4, 5, 6, 7 };
         int ans = maxProfitAssignment(difficulty, profit, worker);
         System.out.println(ans);
     }
 
-    //T.C : O(N + M)Logn
+    // T.C : O(N + M)Logn
     public static int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
         int n = difficulty.length;
         int m = worker.length;
         List<int[]> vec = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            vec.add(new int[]{difficulty[i], profit[i]});
+            vec.add(new int[] { difficulty[i], profit[i] });
         }
         vec.sort((a, b) -> Integer.compare(a[0], b[0]));
 

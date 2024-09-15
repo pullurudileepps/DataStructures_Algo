@@ -1,4 +1,4 @@
-import java.util.*;
+package LinkedList;
 
 class ListNode {
     int val;
@@ -20,20 +20,15 @@ class ListNode {
     }
 }
 
-public class Main {
+public class deleteHead {
     // Function to delete the head node of the linked list
-    public static ListNode deleteHead(ListNode head) {
+    public static ListNode deleteHeadFun(ListNode head) {
         // If list is empty, nothing to delete
         if (head == null) {
             return null;
         }
-        // Set temporary pointer
-        ListNode temp = head;
         // Update head to the next node
         head = head.next;
-        // Delete original head
-        temp = null;
-        // Return new head
         return head;
     }
 
@@ -66,7 +61,7 @@ public class Main {
         printList(head);
 
         // Delete the head node
-        head = deleteHead(head);
+        head = deleteHeadFun(head);
 
         System.out.print("List after deleting head: ");
         printList(head);
