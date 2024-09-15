@@ -16,7 +16,7 @@ import java.util.HashMap;
  * A = [1, 0, 1]
  * B = 1
  */
-public class subarraywithK {
+public class subarraySumwithK {
 
     public static void main(String[] args) {
         int[] A = { 0, 0, 0 };
